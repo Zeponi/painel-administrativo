@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Instalação Local</title>
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <style type="text/css">
+            .row {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsum laboriosam facere, magnam eveniet iure ad expedita nemo nobis. Et possimus est voluptatibus dolore quam optio unde deleniti beatae quo.</p>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip no Topo">
+                        Tooltip Top
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip no Direita">
+                        Tooltip Right
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip no Rodapé">
+                        Tooltip Bottom
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip no Esquerda">
+                        Tooltip Left
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>	
+    <script type="text/javascript">
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+    </body>
+</html>
