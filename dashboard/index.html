@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="bibliotecas/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="" href="css/sb-admin.min.css">
 </head>
-<body class="bg-dark" id="page-top">
+<body class="bg-dark fixed-nav sticky-footer" id="page-top">
 	<!-- Navegação -->
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
 		<a class="navbar-brand" href="#">Admin Curso</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCurso" aria-controls="navbarCurso" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -49,8 +49,52 @@
 					</a>
 				</li>
 			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<form class="form-inline my-2 my-lg-0 mr-lg-2">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Pesquisar por...">
+							<span class="input-group-btn">
+								<button class="btn btn-primary" type="button">
+									<i class="fa fa-search"></i>
+								</button>
+							</span>
+						</div>
+					</form>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="fa fa-sign-out">Logout</i>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
+	<div class="content-wrapper">
+		<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item">
+					Página em Brando
+				</li>
+			</ol>
+			<div class="row">
+				<div class="col-12">
+					<h1>Título da página</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, sequi, aspernatur sapiente laboriosam ducimus quos perferendis eaque accusamus quasi! Perferendis officia dolores nemo blanditiis provident quibusdam, ab autem quasi. Consequatur.</p>
+				</div>
+			</div>
+		</div>
+		<footer class="sticky-footer">
+			<div class="container">
+				<div class="text-center">
+					<small>Copyright Augusto Miguel Zeponi 2018</small>
+				</div>
+			</div>
+		</footer>
+	</div>
 
 	<script src="bibliotecas/jquery/jquery.min.js"></script>
 	<script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
